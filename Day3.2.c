@@ -14,9 +14,6 @@ int main()
 
     for (i = start; i <= end; i++)
     {
-        if (i <= 1)
-            continue;
-
         flag = 0;
 
         for (j = 2; j < i; j++)
