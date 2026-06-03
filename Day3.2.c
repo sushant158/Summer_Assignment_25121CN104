@@ -14,7 +14,12 @@ int main()
 
     for (i = start; i <= end; i++)
     {
+     
         flag = 0;
+          if(i==1){
+           flag=1;
+       }
+
 
         for (j = 2; j < i; j++)
         {
