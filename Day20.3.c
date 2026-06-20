@@ -20,7 +20,7 @@ int main()
         {
             sum+=mat[i][j];
         }
-        printf("The sum of row%d is %d",i+1,sum);
+        printf("The sum of row%d is %d\n",i+1,sum);
     }
 
 
