@@ -6,7 +6,6 @@ int main()
     char str[100]="sushant";
     int i, vowels = 0, consonants = 0;
 
-    printf("Enter a string: ");
 
     for (i = 0; str[i] != '\0'; i++)
     {
